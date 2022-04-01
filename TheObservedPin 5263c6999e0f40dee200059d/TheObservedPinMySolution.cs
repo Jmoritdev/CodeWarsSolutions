@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace CodeWarsSolutions {
+    //https://www.codewars.com/kata/reviews/5b4c9bfbe35052a1a2001f04/groups/6245e01bbe56650001011899
     public class TheObservedPinMySolution {
         static Dictionary<char, char[]> adjacents = new Dictionary<char, char[]>() {
             { '1', new char[] { '2', '4' } },
